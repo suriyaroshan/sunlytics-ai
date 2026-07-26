@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sunlytics AI | Analytics</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            ☀ Sunlytics AI
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="setup.html">Setup</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="analytics.html" class="active">Analytics</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="analytics">
+
+        <h1>📊 Solar Analytics</h1>
+
+        <div class="analytics-summary">
+
+    <div class="info-card">
+
+        <h3>Total Generation</h3>
+
+        <p id="totalGeneration"></p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>Total Savings</h3>
+
+        <p id="totalSavings"></p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>CO₂ Saved</h3>
+
+        <p id="totalCO2"></p>
+
+    </div>
+
+</div>
+<div class="chart-card">
+
+    <h2>🤖 AI Insights</h2>
+
+    <div id="aiInsights">
+
+        <p>Loading recommendations...</p>
+
+    </div>
+</div>
+
+        <div class="chart-card">
+
+    <h2>Monthly Solar Generation</h2>
+
+    <canvas id="generationChart"></canvas>
+
+</div>
+
+<div class="chart-grid">
+
+    <div class="chart-card">
+
+        <h2>Estimated Monthly Savings</h2>
+
+        <canvas id="savingsChart"></canvas>
+
+    </div>
+
+    <div class="chart-card">
+
+        <h2>CO₂ Reduction</h2>
+
+        <canvas id="co2Chart"></canvas>
+
+    </div>
+
+</div>
+
+    </section>
+
+    <script src="../js/analytics.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Sunlytics AI</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+    <i class="bi bi-sun-fill"></i>
+    <span>Sunlytics AI</span>
+            </div>
+
+<ul class="nav-links">
+    <li><a href="#">Features</a></li>
+    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+    <li><a href="#">About</a></li>
+</ul>
+
+<div class="nav-actions">
+    <button class="theme-toggle">
+        <i class="bi bi-moon-fill"></i>
+    </button>
+
+    <a href="../index.html" class="cta-btn">
+        Home
+    </a>
+</div>
+        </nav>
+</header>
+<main class="dashboard-page">
+
+    <section class="dashboard-container">
+
+        <h1>Your Solar Dashboard</h1>
+
+        <p>
+            Your personalised solar insights generated from the information
+            you entered.
+        </p>
+        <div class="summary-card">
+
+    <h2>🌞 Solar System Summary</h2>
+
+    <div class="summary-grid">
+
+        <div>
+            <h4>System Status</h4>
+            <p id="summaryStatus">Loading...</p>
+        </div>
+
+        <div>
+            <h4>Daily Generation</h4>
+            <p id="summaryGeneration">Loading...</p>
+        </div>
+
+        <div>
+            <h4>Monthly Savings</h4>
+            <p id="summarySavings">Loading...</p>
+        </div>
+
+    </div>
+
+</div>
+        <div class="dashboard-grid">
+
+    <div class="info-card">
+        <h3>📍 Location</h3>
+        <p id="displayLocation">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>🏠 Roof Size</h3>
+        <p id="displayRoofSize">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>☀ Solar Panels</h3>
+        <p id="displayPanels">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>📐 Roof Angle</h3>
+        <p id="displayAngle">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>💷 Monthly Bill</h3>
+        <p id="displayBill">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>⚡ Electricity Rate</h3>
+        <p id="displayRate">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>⚡ Estimated Daily Generation</h3>
+        <p id="dailyGeneration">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>💷 Estimated Monthly Savings</h3>
+        <p id="monthlySavings">Loading...</p>
+    </div>
+
+    <div class="info-card">
+        <h3>🌱 Annual CO₂ Reduction</h3>
+        <p id="co2Saved">Loading...</p>
+    </div>
+
+    <div class="info-card">
+    <h3>☀ Solar Health</h3>
+
+    <p id="healthPercentage">Loading...</p>
+
+    <div class="health-bar">
+        <div class="health-fill" id="healthFill"></div>
+    </div>
+
+    <p id="healthStatus">Loading...</p>
+</div>
+
+</div>
+
+    </section>
+
+    <div class="dashboard-actions">
+
+    <a href="analytics.html" class="primary-btn">
+        📊 View Advanced Analytics
+    </a>
+
+</div>
+
+</main>
+
+<script src="../js/dashboard.js"></script>
+
+</body>
+
+</html>
