@@ -1,139 +1,112 @@
 # ☀️ Sunlytics AI
 
-An intelligent solar performance and optimisation platform built using **HTML5, CSS3 and JavaScript**.
-
-Sunlytics AI helps users monitor solar panel performance, estimate energy generation, analyse weather conditions and receive intelligent recommendations to maximise solar efficiency.
+An intelligent solar performance and optimisation platform that helps homeowners analyse their solar panel system using interactive dashboards, data visualisation and AI-powered recommendations.
 
 ---
 
-## 🚀 Project Status
+## 🚀 Features
 
-### ✅ Version 1 – Frontend Foundation (In Progress)
-
-- Modern Responsive Landing Page
-- Interactive Dashboard UI
-- Solar Health Overview
-- Feature Showcase
-- Multi-page Website Structure
-- Professional UI/UX
-
-### 🚧 Version 2 – Live Data Integration (In Development)
-
-- Weather API Integration
-- NASA POWER API Integration
-- Solar Radiation Analytics
-- Recommendation Engine
-- Local Storage Support
-
-### 🔬 Version 3 – AI & Advanced Analytics (Planned Enhancements)
-
-- AI-powered Solar Recommendations
-- Historical Energy Analytics
-- Predictive Solar Performance
-- Advanced Interactive Dashboard
-- User Authentication
+- Modern responsive landing page
+- Solar system setup wizard
+- Interactive dashboard
+- AI-generated performance insights
+- Monthly energy generation analysis
+- Savings estimation
+- CO₂ reduction calculator
+- Solar Health Score
+- Local Storage integration
+- Interactive charts using Chart.js
 
 ---
 
-# ✨ Features
-
-- ☀ Solar Health Dashboard
-- 📈 Smart Energy Forecast
-- 🤖 AI Energy Detective
-- 🌤 Weather-Based Insights
-- 📊 Modern Analytics Interface
-- 📱 Responsive Design
-- 🎨 Premium UI/UX
-- 🌙 Dark Mode *(Coming Soon)*
-
----
-
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Git
-- GitHub
-- Bootstrap Icons
+- Chart.js
+- Local Storage API
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```text
-sunlytics-ai
+```
+sunlytics-ai/
 │
 ├── index.html
-├── README.md
-├── LICENSE
-│
 ├── css/
 ├── js/
-├── assets/
 ├── pages/
-└── data/
+├── assets/
+└── README.md
 ```
 
 ---
 
-# 🎯 Learning Objectives
+## 📊 Key Features
 
-This project was created to strengthen my frontend development skills while learning:
+### Dashboard
 
-- Semantic HTML
-- Modern CSS & Flexbox
-- Responsive Web Design
-- JavaScript DOM Manipulation
-- API Integration
-- Git & GitHub
-- UI/UX Design Principles
+- Solar performance overview
+- Health Score
+- Daily generation
+- Monthly savings
+- CO₂ reduction
 
----
+### Analytics
 
-# 🗺 Roadmap
-
-## ✅ Version 1
-- Landing Page
-- Setup Page
-- Dashboard
-- Responsive Layout
-- JavaScript Interactions
-
-## 🚧 Version 2
-- Weather API
-- NASA POWER API
-- Solar Analytics
-- Recommendation Engine
-
-## 🔬 Version 3
-- AI Assistant
-- Predictive Analytics
-- Historical Reports
-- User Accounts
+- Monthly generation chart
+- Savings analysis
+- Carbon reduction visualisation
+- AI-powered recommendations
 
 ---
 
-# 👨‍💻 Author
+## 🎯 Future Improvements
+## 🚀 Product Roadmap
+
+### ✅ Version 1 (Completed)
+- Responsive multi-page web application
+- Solar system setup wizard
+- Interactive dashboard
+- Solar Health Score
+- AI-powered insights
+- Monthly generation analytics
+- Cost savings estimation
+- CO₂ reduction analysis
+- Chart.js data visualisations
+- Local Storage integration
+
+---
+
+### 🔄 Version 2 (In Development)
+- Live weather integration
+- Real-time solar irradiance data
+- Energy production forecasting
+- Interactive map-based location selection
+- Downloadable PDF performance reports
+- Improved AI recommendations
+
+---
+
+### 🔮 Version 3 (Planned)
+- Machine learning prediction engine
+- User accounts and cloud data storage
+- Smart home and inverter integration
+- Electricity tariff optimisation
+- Mobile application (iOS & Android)
+- Advanced predictive analytics
+- Multi-property portfolio management
+---
+
+## 👨‍💻 Author
 
 **Suriya Roshan**
 
+Data Analytics Student | Queen's University Belfast
+
+Passionate about AI, Data Analytics and Software Development.
+
 GitHub:
 https://github.com/suriyaroshan
-suriyaroshan456@gmail.com
-
----
-
-## ⭐ Future Improvements
-
-- AI-powered recommendations
-- Interactive charts
-- User authentication
-- Cloud database
-- Progressive Web App (PWA)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
